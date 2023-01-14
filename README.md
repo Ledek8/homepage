@@ -1,6 +1,6 @@
 # Strona o Red Hot Chili Peppers
 
-![RHCPlogo](images/rhcp1.jpg)
+![RHCPlogo](images/rhcpLogo.jpg)
 
 ## Adres do strony: https://ledek8.github.io/homepage
 
