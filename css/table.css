@@ -1,0 +1,31 @@
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+.table__caption {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 1px 1px 2px #eee;
+}
+
+.table__cell {
+    border: 3px ridge #eee;
+    background: #ccc;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.table__cell:hover {
+    background-color: #eee;
+}
+
+.table__header {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+}

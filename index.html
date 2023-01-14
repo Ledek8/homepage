@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Hot Chili Peppers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/images.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <div>
+        <button class="button js-button">Zmień motyw na <span class="js-theme">jasny</span></button>
+        <div class="themeCounter js-themeCounter"> <span id="js-counter"></span></div>
+    </div>
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__title">Nawigacja strony:</li>
+            <li class="navigation__list"><a class="navigation__link" href="#start">Start</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#opis">Opis zespołu</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#dyskografia">Dyskografia</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#osiagniecia">Osiągnięcia</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#tabela">Tabela utworów</a></li>
+        </ul>
+    </nav>
+    <header id="start">
+        <h1 class="title">Red Hot Chili Peppers</h1>
+        <div class="images js-images">
+            <img class="images__outline"
+                src="https://seeklogo.com/images/R/red-hot-chili-peppers-logo-EE8D208474-seeklogo.com.png"
+                alt="Logo RHCP" width="400">
+        </div>
+        <button class="button js-imgLogo">Logo zespołu</button>
+        <button class="button js-imgConcert">Zdjęcie z koncertu</button>
+        <button class="button js-imgArtists">Artyści</button>
+    </header>
+    <main>
+        <section id="opis">
+            <h2 class="subtitle">Opis zespołu</h2>
+            <p><strong>Hot Chili Peppers (w skrócie: RHCP)</strong> – kalifornijska grupa muzyczna grająca głównie funk
+                rock,
+                powstała w Los Angeles w 1983.
+                <br>Obecny skład grupy tworzą wokalista Anthony Kiedis, gitarzysta John Frusciante,
+                basista Michael „Flea” Balzary i perkusista Chad Smith.
+                <br>Zróżnicowany styl muzyczny zespołu połączył tradycyjny funk z elementami innych stylów, w tym rocka
+                alternatywnego, punk rocka, i rocka psychodelicznego.
+            </p>
+        </section>
+        <section id="dyskografia">
+            <h2 class="subtitle">Dyskografia</h2>
+            <p>W 1991 roku zespół nagrał <em>Blood Sugar Sex Magik</em> - pierwszy znaczący album grupy, który sprzedał
+                się
+                w
+                nakładzie ponad <b>13 milionów egzemplarzy</b>, co zapewniło grupie komercyjny sukces. Zjednoczony
+                kwartet
+                powrócił do studia, aby nagrać <em>Californication</em> (1999), który sprzedał się na
+                całym świecie w <b>piętnastu milionach egzemplarzy</b>, odnosząc największy sukces spośród wszystkich
+                albumów
+                grupy. Następnym albumem był wydany trzy lata później <em>By the Way</em> (2002), który również odniósł
+                sukces.
+                <br>W 2006 r. grupa wydała podwójny album <em>Stadium Arcadium</em>, który jako pierwszy w historii
+                formacji
+                uplasował
+                się na <strong>pierwszym miejscu listy Billboard Hot 100</strong>.
+            </p>
+        </section>
+        <section id="osiagniecia">
+            <h2 class="subtitle">Nagrody i osiągnięcia</h2>
+            <p><strong>Red Hot Chili Peppers jest siedmiokrotnym laureatem <em>Nagrody Grammy</em></strong>. <br>Zespół
+                sprzedał
+                ponad <b>80 milionów albumów</b> na całym świecie, osiem singli uplasowało się w pierwszej czterdziestce
+                zestawienia <em>Billboard Hot 100</em> (włączając trzy single w Top 10), pięć singli dostało się na
+                listę
+                przebojów <em>Mainstream Rock Tracks</em>, 11 singli zespołu osiągnęło 1. miejsce listy <em>Modern Rock
+                    Tracks</em>.
+                <br><strong>23 września 2009 grupa została nominowania do wprowadzenia do <em>Rock and Roll Hall of
+                        Fame</em> w
+                    ramach grupy nominowanych na rok 2010.</strong> Red Hot Chili Peppers został sklasyfikowany na 30.
+                miejscu
+                zestawienia <i>„Greatest Artists of Hard Rock”</i> przygotowanego przez telewizję <em>VH1</em>.
+            </p>
+        </section>
+        <section id="tabela" class="container">
+            <table class="table">
+                <caption class="table__caption">Moje ulubione utwory od Red Hot Chili Peppers:</caption>
+                <tr>
+                    <th class="table__cell table__header" scope="col">Miejsce</th>
+                    <th class="table__cell table__header" scope="col">Tytuł</th>
+                    <th class="table__cell table__header" scope="col">Album</th>
+                    <th class="table__cell table__header" scope="col">Rok wydania</th>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">1</th>
+                    <td class="table__cell">Scar Tissue</td>
+                    <td class="table__cell" rowspan="2">Californication</td>
+                    <td class="table__cell" rowspan="2">1999</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">2</th>
+                    <td class="table__cell">Californication</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">3</th>
+                    <td class="table__cell">Venice Queen</td>
+                    <td class="table__cell">By the Way</td>
+                    <td class="table__cell">2002</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">4</th>
+                    <td class="table__cell">Snow</td>
+                    <td class="table__cell">Stadium Arcadium</td>
+                    <td class="table__cell">2006</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">5</th>
+                    <td class="table__cell">Under the Bridge</td>
+                    <td class="table__cell">Blood Sugar Sex Magik</td>
+                    <td class="table__cell">1991</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">6</th>
+                    <td class="table__cell">The Zephyr Song</td>
+                    <td class="table__cell">By the Way</td>
+                    <td class="table__cell">2002</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">7</th>
+                    <td class="table__cell">Dark Necessities</td>
+                    <td class="table__cell">The Gataway</td>
+                    <td class="table__cell">2016
+                    </td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">8</th>
+                    <td class="table__cell">By the Way</td>
+                    <td class="table__cell" rowspan="3">By the Way</td>
+                    <td class="table__cell" rowspan="3">2002</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">9</th>
+                    <td class="table__cell">Dosed</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">10</th>
+                    <td class="table__cell">Can't Stop</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        Designed by Leonard Lech
+    </footer>
+</body>
+
+</html>

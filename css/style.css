@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: #111;
+    color: #eee;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: "Lato", sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 2px 3px #eee;
+    text-align: center;
+}
+
+.subtitle {
+    color: red;
+}
+
+.themeCounter {
+    color: red;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lightBackground {
+    background: #eee;
+    color: black;
+}
+
+.button {
+    color: #eee;
+    background-color: red;
+    border: 3px ridge #eee;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+    border-color: red;
+    outline: none;
+}
+
+.conteiner {
+    overflow-x: auto;
+}

@@ -1,0 +1,10 @@
+.images {
+    margin: auto;
+    width: 400px;
+}
+
+.images__outline {
+    box-shadow: 0px 0px 25px 5px #eee;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
